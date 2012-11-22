@@ -14,8 +14,8 @@ end
 describe "result" do
   describe "when both players start with rating of 100 and k factor of 30" do
     it "must return 115 for the winner" do
-      player = Player.new
-      new_rating = player.rating
+      winner = Player.new
+      new_rating = winner.rating
       new_rating.must_equal 115
     end
   end
